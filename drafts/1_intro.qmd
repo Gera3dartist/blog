@@ -1,0 +1,18 @@
+---
+title: "Why deep learning is useful for navigating uav"
+author: Andrii G
+format:
+    html:
+        code-fold: true
+# jupyter: python3
+---
+
+
+## TL;DR
+This  is blog motivated by [fastai](https://course.fast.ai/Lessons/lesson2.html) course.
+During a series of posts we will explore how to use deep learning for visual navigation of UAVs.
+also we'll touch on some theoretical aspects of deep learning.
+
+The main idea of this blog is to learn by trying to explain the material to others.
+
+Stay tuned!

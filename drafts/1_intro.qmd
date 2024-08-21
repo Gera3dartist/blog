@@ -16,3 +16,5 @@ also we'll touch on some theoretical aspects of deep learning.
 The main idea of this blog is to learn by trying to explain the material to others.
 
 Stay tuned!
+
+Updated is also displayed

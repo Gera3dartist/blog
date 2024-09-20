@@ -1,0 +1,18 @@
+---
+title: "Approximating functions with a "
+author: Andrii G
+format:
+    html:
+        code-fold: true
+# jupyter: python3
+---
+
+-- Introduction
+## Toy example of function approximation
+
+-- Body
+
+-- Conclusion
+
+
+Stay tuned!

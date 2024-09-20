@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "experiments/fastai_course/notes/chapter_3.html",
+    "href": "experiments/fastai_course/notes/chapter_3.html",
+    "title": "Network basics",
+    "section": "",
+    "text": "This is blog motivated by fastai course. During a series of posts we will explore how to use deep learning for visual navigation of UAVs. also we’ll touch on some theoretical aspects of deep learning.\nThe main idea of this blog is to learn by trying to explain the material to others.\nStay tuned!\nUpdated is also displayed"
+  },
+  {
+    "objectID": "experiments/fastai_course/notes/chapter_3.html#tldr",
+    "href": "experiments/fastai_course/notes/chapter_3.html#tldr",
+    "title": "Network basics",
+    "section": "",
+    "text": "This is blog motivated by fastai course. During a series of posts we will explore how to use deep learning for visual navigation of UAVs. also we’ll touch on some theoretical aspects of deep learning.\nThe main idea of this blog is to learn by trying to explain the material to others.\nStay tuned!\nUpdated is also displayed"
+  },
+  {
     "objectID": "drafts/1_intro.html",
     "href": "drafts/1_intro.html",
     "title": "Why deep learning is useful for navigating uav",
@@ -16,29 +30,8 @@
   {
     "objectID": "drafts/2_function_approximator.html",
     "href": "drafts/2_function_approximator.html",
-    "title": "Why deep learning is useful for navigating uav",
+    "title": "Approximating functions with a",
     "section": "",
     "text": "– Introduction ## Toy example of function approximation\n– Body\n– Conclusion\nStay tuned!"
-  },
-  {
-    "objectID": "drafts/2_function_approximator.html#tldr",
-    "href": "drafts/2_function_approximator.html#tldr",
-    "title": "Why deep learning is useful for navigating uav",
-    "section": "",
-    "text": "This is blog motivated by fastai course. During a series of posts we will explore how to use deep learning for visual navigation of UAVs. also we’ll touch on some theoretical aspects of deep learning.\nThe main idea of this blog is to learn by trying to explain the material to others.\nStay tuned!"
-  },
-  {
-    "objectID": "experiments/fastai_course/notes/chapter_3.html",
-    "href": "experiments/fastai_course/notes/chapter_3.html",
-    "title": "Network basics",
-    "section": "",
-    "text": "This is blog motivated by fastai course. During a series of posts we will explore how to use deep learning for visual navigation of UAVs. also we’ll touch on some theoretical aspects of deep learning.\nThe main idea of this blog is to learn by trying to explain the material to others.\nStay tuned!\nUpdated is also displayed"
-  },
-  {
-    "objectID": "experiments/fastai_course/notes/chapter_3.html#tldr",
-    "href": "experiments/fastai_course/notes/chapter_3.html#tldr",
-    "title": "Network basics",
-    "section": "",
-    "text": "This is blog motivated by fastai course. During a series of posts we will explore how to use deep learning for visual navigation of UAVs. also we’ll touch on some theoretical aspects of deep learning.\nThe main idea of this blog is to learn by trying to explain the material to others.\nStay tuned!\nUpdated is also displayed"
   }
 ]

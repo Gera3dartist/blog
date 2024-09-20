@@ -7,3 +7,4 @@ dist/
 build/
 */libs
 /.quarto/
+/_site/

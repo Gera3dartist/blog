@@ -11,11 +11,7 @@ format:
 -- Introduction
 ## Toy example of function approximation
 
--- Body here 2 a change
--- another changes
--- SHOULD SSEE THIS
--- SHOULD SSEE THIS - from main
--- Conclusion
+-- ONLY from gh-pages
 
 
 Stay tuned!

@@ -8,23 +8,24 @@ name: Quarto Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
-
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
+      - name: Render Quarto Website
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: html
+          
+      # - name: Add Netlify redirects
+      #   run: mv _redirects _site  # Move the _redirects file to _site folder
+
+      - name: Publish without render
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # - name: Deploy GitHub Pages site
-      #   uses: actions/deploy-pages@v4.0.5
+          target: netlify
+          render: false # Set false to prevent overriding _site by re-render
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

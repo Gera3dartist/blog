@@ -11,11 +11,7 @@ jobs:
     permissions:
       contents: write
       pages: write
-      id-token-write: write
     needs: jekyll-build
-    environ:
-      name: github-pages
-      url: ${{steps.deployment.outputs.page_url}}
 
     steps:
       - name: Check out repository

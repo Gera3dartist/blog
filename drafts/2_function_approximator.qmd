@@ -4,6 +4,8 @@ author: Andrii G
 format:
     html:
         code-fold: true
+    revealjs: 
+        theme: [default, style.scss]
 # jupyter: python3
 ---
 

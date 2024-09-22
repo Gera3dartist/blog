@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    needs: jekyll-build
 
     steps:
       - name: Check out repository
@@ -25,7 +24,6 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    # another-job:
 
-    #   - name: Deploy GitHub Pages site
-    #     uses: actions/deploy-pages@v4.0.5
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v4.0.5

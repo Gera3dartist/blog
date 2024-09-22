@@ -4,7 +4,7 @@ author: Andrii G
 format:
     html:
         code-fold: true
-        css: style.scss
+        css: assets/css/style.scss
 # jupyter: python3
 ---
 

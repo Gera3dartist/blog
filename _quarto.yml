@@ -1,8 +1,0 @@
-project:
-  type: website
-  output-dir: docs
-  render:
-    - "*.qmd"
-    - "!tutorial/"
-execute:
-  freeze: auto

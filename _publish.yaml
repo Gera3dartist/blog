@@ -1,0 +1,5 @@
+- source: project
+  quarto-pub:
+    - url: 'https://gera3000.quarto.pub'
+    - id: 446e5561-d19b-446c-b09f-630404a50a79
+      url: 'https://gera3000.quarto.pub/interesting-blog'

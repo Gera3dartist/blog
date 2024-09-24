@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto Website
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: html
+          
+      # - name: Add Netlify redirects
+      #   run: mv _redirects _site  # Move the _redirects file to _site folder
+
+      - name: Publish without render
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: netlify
+          render: false # Set false to prevent overriding _site by re-render
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

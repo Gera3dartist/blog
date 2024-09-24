@@ -6,3 +6,17 @@ project:
     - "!tutorial/"
 execute:
   freeze: auto
+
+website:
+  title: "Toy Examples"
+  navbar:
+    left:
+      - href: 1_intro.qmd
+        text: Home
+      - 2_function_approximator.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
